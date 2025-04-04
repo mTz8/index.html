@@ -1,0 +1,228 @@
+		body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        nav {
+            background-color: #008000;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: white;
+            color: #008000;
+            border-radius: 5px;
+        }
+        #about {
+            background-color: white;
+            padding: 50px;
+            text-align: left;
+            margin: 25px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+            border-radius: 10px;
+			border: 1px solid green;
+			overflow: hidden;
+        }
+		#activities {
+            background-color: white;
+            padding: 50px;
+            text-align: center;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+            border-radius: 10px;
+			border: 1px solid green;
+			overflow: hidden;
+			align-self: right;
+			align-content: right;
+        }
+		#activities li{
+			text-align:left;
+			margin: auto;
+			width: auto;
+		}
+		#activities ul{
+		float: left;
+		width: auto;
+		margin: auto;
+		}
+		#registration {
+            background-color: white;
+            padding: 50px;
+            text-align: center;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+            border-radius: 10px;
+        }
+		#gallery {
+            background-color: white;
+            padding: 50px;
+            text-align: center;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+            border-radius: 10px;
+			border: 1px solid green;
+        }
+		img{
+			width:20%;
+			height: auto;
+			border-radius: 10px;
+			transition: transform 0.3s ease, box-shadow 0.3s ease;
+			object-fit: cover;
+		}
+		img:hover{
+			transform: scale(1.05);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		}
+		form {
+			background-color: #ffffff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+			width: 60%;
+			margin: auto;
+			text-align: left;
+			border: 2px solid green;
+		}
+
+		form label {
+			font-weight: bold;
+			display: block;
+			margin: 10px 0 5px;
+		}
+
+		form input {
+			width: 100%;
+			padding: 8px;
+			margin-bottom: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			font-size: 16px;
+		}
+
+		form button {
+			background-color: #008000;
+			color: white;
+			padding: 10px 15px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			display: block;
+			width: 100%;
+		}
+
+		form button:hover {
+			background-color: #006600;
+		}
+		#contact {
+			background-color: white;
+            padding: 50px;
+            text-align: center;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+            border-radius: 10px;
+			border: 1px solid green;
+		}
+		#contact p {
+			font-size: 18px;
+			margin: 10px 0;
+		}
+		#about p{
+			text-align: justify;
+			background-color: #ffffff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+			width: 50%;
+			margin: auto;
+			border: 2px solid green;
+			float: left;
+			overflow: hidden;
+			height: auto;
+		}
+		#about p:hover{
+			transform: scale(1.05);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+			
+			
+		}
+		#registration{
+			background-color: white;
+            padding: 50px;
+            text-align: center;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+            border-radius: 10px;
+			border: 1px solid green;
+			
+		}
+		#about img{
+		width: 28.5%;	
+		border: 2px solid green;
+		margin-left: 30px;
+			
+		}
+		#activities p{
+			text-align: justify;
+			background-color: #ffffff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+			width: 35%;
+			margin-left: 200px;
+			border: 2px solid green;
+			float: left;
+			overflow: hidden;
+		}
+		#activities p:hover{
+			transform: scale(1.05);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		}
+		h4{
+			text-align: left;
+		}
+		button {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: #2ecc71;
+  color: white;
+}
+#about h1{
+	margin-left: 40px;
+	
+}
