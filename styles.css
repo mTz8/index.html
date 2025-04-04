@@ -170,6 +170,7 @@
 			float: left;
 			overflow: hidden;
 			height: auto;
+			line-height: 20px;
 		}
 		#about p:hover{
 			transform: scale(1.05);
@@ -205,6 +206,7 @@
 			border: 2px solid green;
 			float: left;
 			overflow: hidden;
+			line-height: 30px;
 		}
 		#activities p:hover{
 			transform: scale(1.05);
