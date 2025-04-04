@@ -6,8 +6,13 @@
             color: #333;
         }
         nav {
-            background-color: #008000;
-            padding: 10px 0;
+			background-color: green;
+            padding: 10px;
+			display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  
         }
         nav ul {
             list-style: none;
@@ -17,7 +22,7 @@
         }
         nav ul li {
             display: inline;
-            margin: 0 15px;
+            margin: 0;
         }
         nav ul li a {
             color: white;
@@ -224,5 +229,20 @@ button:hover {
 }
 #about h1{
 	margin-left: 40px;
+	
+}
+header h2{
+	text-align: left;
+}
+header p{
+	color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #008000; 
+  border-left: 6px solid #2ecc71; 
+  border-radius: 0 8px 8px 0;
+  box-shadow: 2px 2px 10px rgba(0, 128, 0, 0.2);
 	
 }
